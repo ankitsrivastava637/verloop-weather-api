@@ -50,7 +50,7 @@ def parse_weather_data(data: dict, output_format: str) -> str:
             "City": data["location"]["name"]
         }
     elif output_format.lower() == "xml":
-            # Create the root element
+        # Create the root element
         root = ET.Element("root")
         
         # Create sub-elements
