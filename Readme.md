@@ -64,6 +64,6 @@ FOR XML : try through POSTMAN API PLATFORM
 
 ## Configuration
 
-Make sure to configure your WeatherAPI.com API key in the `config.py` file before running the application.
+Make sure to configure your WeatherAPI.com API key in the `config.json` file before running the application.
 
 
